@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "fr.valuu.app",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "monolith",
+    "baseName": "PerempApp",
+    "packageName": "fr.valuu.app",
+    "packageFolder": "fr/valuu/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGYzMGVhOGU0MTA4OTA1NGYwYmFkNTYyYTU4NDJjMDNlM2JjNGY2MmM2NDY3MzdlMGFlMGY2MjRhNmE0MWEzMWIxZTYxNzViOTc3N2Y0YWQ3NmUyZTkyOTRmNDQzZDZjNTRmOWIzYWFiMDFkNjE2Y2VjZmUzOTZlN2NkMTc2OGY=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  }
+}
