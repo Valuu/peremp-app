@@ -1,0 +1,39 @@
+{
+    "name": "ParametrageProduit",
+    "fields": [
+        {
+            "fieldName": "emplacement",
+            "fieldType": "Emplacement",
+            "fieldValues": "CONGELATEUR"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "duree",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "unite",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "produit",
+            "otherEntityName": "produit",
+            "otherEntityRelationshipName": "parametrageProduit"
+        }
+    ],
+    "changelogDate": "20180927181349",
+    "entityTableName": "parametrage_produit",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
